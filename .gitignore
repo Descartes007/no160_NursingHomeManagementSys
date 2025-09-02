@@ -1,0 +1,75 @@
+######################################################################
+# Build Tools
+
+.gradle
+front/build/
+front/node_modules/
+frontandback/node_modules/
+backandfront/node_modules/
+!gradle/wrapper/gradle-wrapper.jar
+
+back/target/
+backandfront/target/
+frontandback/target/
+db/
+doc/
+!.mvn/wrapper/maven-wrapper.jar
+
+back/out/
+backandfront/out/
+frontandback/out/
+
+######################################################################
+# IDE
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+back/.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/*
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+######################################################################
+# Others
+*.log
+*.xml.versionsBackup
+*.swp
+*.bat
+*.sql
+db/
+entity/
+back/src/main/java/com/entity/
+back/src/main/java/com/db/
+back/src/main/resources/*.yml
+back/src/main/resources/*.properties
+back/log/
+back/logs/
+mapper/
+*.xml
+pojo/
+doc/
+*.doc
+*.docx
+video/
+redis/
+*.bak
+
+!*/build/*.java
+!*/build/*.html
+!*/build/*.xml
